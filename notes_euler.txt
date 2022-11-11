@@ -1,0 +1,5 @@
+x_dot = A x + u[n]
+(x[n]-x[n-1])/T = A x[n-1] + u[n]
+x[n] - x[n-1] = T A x[n-1] + T u[n]
+x[n] = T A x[n-1] + T u[n] + x[n-1]
+x[n] = (T A - I) x[n-1] + T u[n]
